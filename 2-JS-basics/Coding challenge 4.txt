@@ -1,0 +1,15 @@
+var mark = {
+    name: 'Mark',
+    mass: 85,
+    height: 1.78,
+    calcBmi: function(){
+    this.bmi = this.mass / (this.height * this.height);
+    this.cda = this.mass * this.height; // this is just to chech if I can return many things
+        return this.bmi, this.cda;
+    }
+    
+}
+
+mark.calcBmi();
+
+console.log(mark);
